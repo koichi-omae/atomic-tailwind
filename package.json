@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "sb": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "plop --plopfile ./generator/plopfile.js"
   },
   "dependencies": {
     "@types/node": "18.15.11",
